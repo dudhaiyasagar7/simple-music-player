@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">  
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<article class="player">
+
+	  <h1 style="text-transform: uppercase;">Music Player</h1>
+	  <h2 style="color: #f6f6c4;">Hit &nbsp;<i class="fa fa-play"></i>&nbsp;button to cue music</h2>
+	  <div class="spinner-wrap">
+		<div class="spinner-outer"></div>
+		<div class="spinner-center"></div>
+		<div class="play-sprite"></div>
+	  </div>
+	  
+	  <audio loop="loop" data-bpm="128">
+		<source src="assets/songs/song.mp3" type="audio/mp3" />
+		<source src="assets/songs/song.ogg" type="audio/ogg" />
+	  </audio>
+	  
+	</article>
+	
+	<div class="artist" id="artist">
+		<div class="artist-container">
+			<h2 style="color: #fff;"><i class="fa fa-microphone"></i>&nbsp; Artist : Different Heaven</h2>
+			<h2 style="color: #fff;"><i class="fa fa-music"></i>&nbsp;Song : Nekozilla</h2>
+		<div>
+	</div>
+	
+<script src="assets/js/jquery-2.1.1.min.js"></script>
+<script src="assets/js/functions.js" type="text/javascript"></script>
+</body>
+</html>
